@@ -18,6 +18,10 @@ html {
     background-color: #000;
 }
 
+#nav{
+    display: inline-block;
+}
+
 ul#nav > li > a{
     color: #fff;
     text-transform: uppercase;
@@ -62,6 +66,21 @@ ul#nav ul.subnav{
     display: none;
 }
 
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-icon{
+    color:#fff;
+    font-size: 20px;
+    line-height: 46.4px;
+}
+
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
 
 #slider {
 }
