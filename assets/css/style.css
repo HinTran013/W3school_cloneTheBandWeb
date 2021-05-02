@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI ,Arial, sans-serif;
 }
 
 #main {
@@ -105,18 +105,45 @@ ul#nav ul.subnav{
 
 #slider .text-heading{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 450;
     margin: 10px 0;
 }
 
 #slider .text-description{
     font-size: 15px;
     margin: 15px 0;
+    font-weight: 650;
 }
 
 
 #content {
 
+}
+
+#content .content-section {
+    max-width: 800px;
+    margin: 0 auto 168px;
+    text-align: center;
+    padding: 64px 16px;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+#content .section-sub-heading{
+    opacity: 0.6;
+    font-style: italic;
+    margin: 15px 0;
+}
+
+#content .about-text{
+    text-align: justify;
+    margin: 16px 0;
+    line-height: 1.4;
 }
 
 #footer {
