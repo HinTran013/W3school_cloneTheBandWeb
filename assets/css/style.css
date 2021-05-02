@@ -9,6 +9,10 @@ html {
     font-family: Segoe UI ,Arial, sans-serif;
 }
 
+.clear{
+    clear: both;
+}
+
 #main {
 
 }
@@ -122,7 +126,7 @@ ul#nav ul.subnav{
 
 #content .content-section {
     max-width: 800px;
-    margin: 0 auto 168px;
+    margin: 0 auto;
     text-align: center;
     padding: 64px 16px;
 }
@@ -144,6 +148,25 @@ ul#nav ul.subnav{
     text-align: justify;
     margin: 16px 0;
     line-height: 1.4;
+}
+
+#content .member-container{
+    padding: 32px 0;
+}
+
+#content .member-item{
+    float: left;
+    width: calc(100% / 3);
+}
+
+#content .member-name{
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#content .member-img{
+    width: 158px;
+    border-radius: 4px;
 }
 
 #footer {
