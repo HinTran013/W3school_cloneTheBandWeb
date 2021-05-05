@@ -240,6 +240,7 @@ ul#nav ul.subnav{
 
 .places-content{
     margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .places-img{
@@ -252,6 +253,7 @@ ul#nav ul.subnav{
     background-color: #000;
     color: #fff;
     padding: 8px 16px;
+    display: inline-block;
 }
 
 .places-img:hover{
