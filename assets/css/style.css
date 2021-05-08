@@ -321,6 +321,31 @@ ul#nav ul.subnav{
     border: none;
 }
 
-#footer {
+/* Map section */
+.map img{
+    width: 100%;
+}
 
+/* footer section */
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#footer .social-list{
+    font-size: 24px;
+}
+
+#footer .copy-right{
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#footer .copy-right a{
+    color: #000;
+}
+
+#footer .social-list i:hover{
+    opacity: 0.4;
 }
