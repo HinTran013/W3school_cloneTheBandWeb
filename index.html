@@ -54,18 +54,18 @@
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
 
-                <div class="member-container">
-                    <div class="member-item">
+                <div class="row member-container">
+                    <div class="col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="/assets/img/band-member/bandmember.jpg" alt="">
                     </div>
 
-                    <div class="member-item">
+                    <div class="col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="/assets/img/band-member/bandmember.jpg" alt="">
                     </div>
 
-                    <div class="member-item">
+                    <div class="col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="/assets/img/band-member/bandmember.jpg" alt="">
                     </div>
@@ -86,8 +86,8 @@
                         <li class="ticket-item">November<span class="ticket-quantity">3</span></li>
                     </ul>
 
-                    <div class="places-list">
-                        <div class="places-list-items">
+                    <div class="places-list row">
+                        <div class="col-third col">
                             <img class="places-img" src="/assets/img/places/newyork.jpg" alt="New York">
                             <div class="places-item-body">
                                 <h2 class="places-heading">New York</h2>
@@ -97,7 +97,7 @@
                             </div>
                         </div>
 
-                        <div class="places-list-items">
+                        <div class="col-third col">
                             <img class="places-img" src="/assets/img/places/paris.jpg" alt="Paris">
                             <div class="places-item-body">
                                 <h2 class="places-heading">Paris</h2>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
 
-                        <div class="places-list-items">
+                        <div class="col-third col">
                             <img class="places-img" src="/assets/img/places/sanfran.jpg" alt="San Francisco">
                             <div class="places-item-body">
                                 <h2 class="places-heading">San Francisco</h2>
@@ -126,6 +126,40 @@
             <div class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
+
+                <div class="row contact-container">
+                    <div class="col col-half">
+                        <p class="contact-info"><i class="fas fa-map-marker-alt"></i>Chicago, US</p>    
+                        <p class="contact-info"><i class="fas fa-phone-alt"></i>Phone: +00 151515</p>    
+                        <p class="contact-info"><i class="fas fa-envelope"></i>Email: mail@mail.com</p>    
+                    </div>
+
+                    <div class="col col-half">
+                        <form action="#" class="info-form">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input class="info-input" type="text" placeholder="Name" required>
+                                </div>
+                                <div class="col col-half">
+                                    <input class="info-input" type="email" placeholder="Email" required>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input class="info-input" type="text" placeholder="Message" required>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <input type="submit" value="SEND" class="form-contact-submit mt-16">
+                        </form>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
             </div>
         </div>
 

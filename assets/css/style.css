@@ -17,6 +17,37 @@ html {
     color: #fff;
 }
 
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-third{
+    width: 33.3333%;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+
 #main {
 
 }
@@ -158,11 +189,6 @@ ul#nav ul.subnav{
     padding: 32px 0;
 }
 
-#content .member-item{
-    float: left;
-    width: calc(100% / 3);
-}
-
 #content .member-name{
     font-size: 15px;
     margin: 15px 0;
@@ -211,14 +237,7 @@ ul#nav ul.subnav{
 }
 
 .places-list{
-    margin: 0px -8px;
     padding-bottom: 52px;
-}
-
-.places-list-items{
-    float: left;
-    width: 33.33%;
-    padding: 0 8px;
     font-size: 15px;
 }
 
@@ -260,9 +279,46 @@ ul#nav ul.subnav{
     opacity: 0.6;
 }
 
-.places-btn:hover{
+.places-btn:hover,
+.form-contact-submit:hover
+{
     background-color: #ccc;
     color: #000;
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact-container{
+    text-align: left;
+    padding: 32px 0;
+}
+
+.contact-container .contact-info{
+    font-size: 18px;
+}
+
+.contact-info i{
+    width: 30px;
+}
+
+.info-form{
+    
+}
+
+.info-input{
+    padding: 8px;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.form-contact-submit{
+    float: right;
+    padding: 9px 15px;
+    background: #000;
+    color: #fff;
+    border: none;
 }
 
 #footer {
