@@ -274,6 +274,7 @@ ul#nav ul.subnav{
     color: #fff;
     padding: 8px 16px;
     display: inline-block;
+    border: none;
 }
 
 .places-img:hover{
@@ -374,6 +375,7 @@ ul#nav ul.subnav{
     min-height: 200px;
     background-color: #fff;
     position: relative;
+    animation: fadeIn .6s;
 }
 
 .modal-header{
@@ -444,4 +446,16 @@ ul#nav ul.subnav{
 /* #2196F3 */
 .modal-link{
     color: #2196f3;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
