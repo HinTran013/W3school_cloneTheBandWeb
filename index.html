@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
     <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
@@ -182,6 +183,37 @@
             </p>
         </div>
         
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <div class="modal-header">
+                <p class="modal-title">
+                    <i class="fas fa-suitcase"></i> Tickets
+                </p>    
+            </div>
+
+            <div class="modal-body">
+                <form action="" class="modal-form">
+                    <label class="modal-label" for="amount"><i class="fas fa-shopping-cart"></i> Tickets, $15 per person</label>
+                    <input id="amount" type="text" class="modal-input" placeholder="How many?">
+
+                    <label class="modal-label" for="email"><i class="fas fa-user"></i> Send To</label>
+                    <input id="email" type="text" class="modal-input" placeholder="Enter email">
+
+                    <button id="buy-tickets" type="submit">PAY <i class="fas fa-check"></i></button>
+                </form>
+            </div>
+
+
+            <div class="modal-footer">
+                <p class="modal-help">Need <a class="modal-link" href="">help?</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
