@@ -39,7 +39,13 @@ mobileBtn.addEventListener('click', ()=>{
 var menuItems = document.querySelectorAll('ul#nav li a[href*="#"]');
 
 for(var menuItem of menuItems){
-    menuItem.onclick = function(){
-        header.style.height = null;
+    menuItem.onclick = function(event){
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav')
+
+        if(isParentMenu){
+            event.preventDefault();
+        }else{
+            header.style.height = null;
+        }
     }
 }

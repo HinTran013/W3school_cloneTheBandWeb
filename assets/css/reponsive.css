@@ -1,5 +1,17 @@
 /* Mobile */
 @media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
     #nav{
         display: block;
     }
@@ -16,15 +28,14 @@
         display: block;
     }
 
-    #header{
-        overflow: hidden;
+    ul#nav ul.subnav{
+        position: initial;
+        background-color: #333;
+        
     }
 
-    #header .search-btn{
-        display: none;
-    }
-
-    #header .mobile-menu-btn{
-        display: block;
+    ul#nav .subnav li a {
+        color: #fff;
+        padding: 0 41px;
     }
 }
