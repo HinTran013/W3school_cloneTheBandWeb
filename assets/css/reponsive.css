@@ -1,5 +1,11 @@
 /* Mobile */
-@media (max-width: 793px){
+@media (max-width: 740px){
+    ul#nav > li{
+        display: block;
+    }
 
+    #header .search-btn{
+        display: none;
+    }
 
 }
