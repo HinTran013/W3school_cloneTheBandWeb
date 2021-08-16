@@ -38,4 +38,12 @@
         color: #fff;
         padding: 0 41px;
     }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
 }
