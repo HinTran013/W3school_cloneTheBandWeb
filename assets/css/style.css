@@ -60,7 +60,6 @@ html {
     background-color: #000;
     width: 100%;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav{
@@ -117,11 +116,19 @@ ul#nav ul.subnav{
     padding: 0 21px;
 }
 
+#header .mobile-menu-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
 #header .mobile-menu-icon,
 #header .search-icon{
     color:#fff;
     font-size: 20px;
     line-height: 46.4px;
+    
 }
 
 #header .mobile-menu-btn:hover{
