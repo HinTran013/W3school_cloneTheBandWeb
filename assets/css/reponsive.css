@@ -1,3 +1,40 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet and mobile */
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .info-input{
+        padding: 14px;
+    }
+
+    #footer .social-list{
+        font-size: 30px;
+    }
+
+    #footer .social-list a{
+        margin: 0 5px;
+    }
+
+    .copy-right a {
+        padding: 8px 0;
+        display: inline-block;
+    }
+
+    .contact-container .contact-info{
+        line-height: 2;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
 /* Mobile */
 @media (max-width: 740px){
     #header{

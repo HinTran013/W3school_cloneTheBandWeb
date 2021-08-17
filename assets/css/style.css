@@ -326,6 +326,15 @@ ul#nav ul.subnav{
     width: 30px;
 }
 
+.contact-info a{
+    color: #2196f3;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
+}
+
 .info-form{
     
 }
@@ -360,6 +369,11 @@ ul#nav ul.subnav{
 
 #footer .social-list{
     font-size: 24px;
+}
+
+#footer .social-list a{
+    text-decoration: none;
+    color: #000;
 }
 
 #footer .copy-right{
