@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: Segoe UI ,Arial, sans-serif;
+    font-family: 'Lato' ,Arial, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -47,6 +47,10 @@ html {
 
 .mt-16{
     margin-top: 16px !important;
+}
+
+.mt-32{
+    margin-top: 32px !important;
 }
 
 #main {
@@ -239,7 +243,7 @@ ul#nav ul.subnav{
     background-color: #f44336;
     color: #fff;
     margin-left: 16px;
-    padding: 0px 8px 1px;
+    padding: 4px 8px 1px;
 }
 
 .ticket-list .ticket-quantity{

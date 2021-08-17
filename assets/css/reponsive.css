@@ -43,6 +43,18 @@
         width: 100%;
     }
 
+    .s-full-width{
+        width: 100%;
+    }
+
+    .s-mt-16{
+        margin-top: 16px;
+    }
+
+    .s-mt-8{
+        margin-top: 8px;
+    }
+
     #content .member-img{
         width: 60%;
     }
